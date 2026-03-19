@@ -1572,6 +1572,114 @@
           font-size: 12px;
         }
       }
+
+      /* ── Break / ceremony banners ── */
+      .break-banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px 20px;
+        background: #fefce8;
+        border-top: 1px dashed #fbbf24;
+        border-bottom: 1px dashed #fbbf24;
+        font-size: 12.5px;
+        font-weight: 700;
+        color: #92400e;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+      }
+      .break-banner .bb-time {
+        font-weight: 500;
+        color: #b45309;
+        font-size: 12px;
+        letter-spacing: 0;
+        text-transform: none;
+      }
+      .ceremony-banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 12px 20px;
+        background: var(--blue-light);
+        border-top: 1px solid var(--grey-border);
+        border-bottom: 1px solid var(--grey-border);
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--blue-dark);
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+      }
+      .ceremony-banner .cb-time {
+        font-weight: 500;
+        color: var(--blue);
+        font-size: 12px;
+        letter-spacing: 0;
+        text-transform: none;
+      }
+
+      /* ── Initials avatar (contact + committee) ── */
+      .cc-av {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Merriweather", serif;
+        font-weight: 900;
+        color: #fff;
+        flex-shrink: 0;
+        letter-spacing: 0.5px;
+        border-radius: 10px;
+      }
+      /* Contact size */
+      .cc-sm {
+        width: 48px;
+        height: 48px;
+        font-size: 15px;
+      }
+      /* Committee size */
+      .cc-lg {
+        width: 58px;
+        height: 58px;
+        font-size: 17px;
+      }
+
+      .cc-bg1 {
+        background: linear-gradient(135deg, #880e4f, #c2185b);
+      }
+      .cc-bg2 {
+        background: linear-gradient(135deg, #1a2560, #283887);
+      }
+      .cc-bg3 {
+        background: linear-gradient(135deg, #334155, #475569);
+      }
+      .cc-bg4 {
+        background: linear-gradient(135deg, #b45309, #d97706);
+      }
+      .cc-bg5 {
+        background: linear-gradient(135deg, #4338ca, #6366f1);
+      }
+      .cc-bg6 {
+        background: linear-gradient(135deg, #0f766e, #14b8a6);
+      }
+      .cc-bg7 {
+        background: linear-gradient(135deg, #7b1c1c, #b02020);
+      }
+      .cc-bg8 {
+        background: linear-gradient(135deg, #1b5e20, #2e7d32);
+      }
+      .cc-bg9 {
+        background: linear-gradient(135deg, #006064, #00838f);
+      }
+      .cc-bg10 {
+        background: linear-gradient(135deg, #4a148c, #6a1b9a);
+      }
+      .cc-bg11 {
+        background: linear-gradient(135deg, #33691e, #558b2f);
+      }
+      .cc-bg12 {
+        background: linear-gradient(135deg, #3e2723, #5d4037);
+      }
     </style>
   </head>
   <body>
@@ -1671,7 +1779,7 @@
           </div>
           <div class="cta-buttons">
             <a
-              href="Medicaps_FDP_2025_Brochure.pdf"
+              href="photos FDP/broucher.jpeg"
               target="_blank"
               class="btn-primary"
               >⬇ Download Brochure</a
@@ -1831,10 +1939,18 @@
                 <h3>April 4, 2026 — Saturday</h3>
                 <div class="dmeta">
                   <span class="ddate"
-                    >2 Sessions &nbsp;·&nbsp; 10:30 AM – 3:30 PM</span
+                    >Inaugural + 2 Sessions &nbsp;·&nbsp; 9:00 AM – 4:00
+                    PM</span
                   ><span class="mbadge m-off">Offline</span>
                 </div>
               </div>
+            </div>
+            <div class="ceremony-banner">
+              🎓 <strong>INAUGURAL CEREMONY</strong>
+              <span class="cb-time">9:00 AM – 10:00 AM</span>
+            </div>
+            <div class="break-banner">
+              ☕ HIGH TEA &nbsp;<span class="bb-time">10:00 AM – 10:30 AM</span>
             </div>
             <div class="sess-grid">
               <div class="sess-row">
@@ -1871,6 +1987,9 @@
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="break-banner">
+              ☕ TEA &nbsp;<span class="bb-time">3:30 PM – 4:00 PM</span>
             </div>
           </div>
 
@@ -2142,7 +2261,8 @@
                 </h3>
                 <div class="dmeta">
                   <span class="ddate"
-                    >2 Sessions &nbsp;·&nbsp; 10:30 AM – 3:30 PM</span
+                    >2 Sessions + Valedictory &nbsp;·&nbsp; 10:30 AM – 4:30
+                    PM</span
                   ><span class="mbadge m-off">Offline</span>
                 </div>
               </div>
@@ -2155,8 +2275,7 @@
                 </div>
                 <div class="sp">
                   <div class="sp-title">
-                    Roadmap for AI Integration in Higher Educational
-                    Institutions (HEIs)
+                    Roadmap for AI Integration in HEIs &amp; Panel Discussion
                   </div>
                 </div>
                 <div class="sk">
@@ -2164,6 +2283,13 @@
                   <div class="sk-inst">Professor, SCS<br />DAVV, Indore</div>
                 </div>
               </div>
+            </div>
+            <div class="break-banner">
+              🍽️ LUNCH BREAK &nbsp;<span class="bb-time"
+                >12:30 PM – 1:30 PM</span
+              >
+            </div>
+            <div class="sess-grid">
               <div class="sess-row">
                 <div class="st">
                   <span class="st-lbl">Session II</span
@@ -2171,7 +2297,7 @@
                 </div>
                 <div class="sp">
                   <div class="sp-title">
-                    The Future of AI-Enabled Universities & Panel Discussion
+                    The Future of AI-Enabled Universities
                   </div>
                 </div>
                 <div class="sk">
@@ -2182,6 +2308,13 @@
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="ceremony-banner">
+              🏆 <strong>VALEDICTORY &amp; CERTIFICATE DISTRIBUTION</strong>
+              <span class="cb-time">3:30 PM – 4:00 PM</span>
+            </div>
+            <div class="break-banner">
+              ☕ TEA &nbsp;<span class="bb-time">4:00 PM – 4:30 PM</span>
             </div>
           </div>
         </div>
@@ -2336,7 +2469,7 @@
             <div class="rpc-top">
               <div class="rp-photo">
                 <img
-                  src="photos FDP/prashant panse.png"
+                  src="photos FDP/panse sir.jpg"
                   alt="Dr. Prashant Panse"
                 />
               </div>
@@ -2380,7 +2513,7 @@
             <div class="rpc-top">
               <div class="rp-photo">
                 <img
-                  src="photos FDP/ratnesh litoriya.png"
+                  src="photos FDP/dr-ratnesh-litoriya-education-academia-indore-thumb.jpg"
                   alt="Dr. Ratnesh Litoriya"
                 />
               </div>
@@ -2403,7 +2536,10 @@
           <div class="rp-card">
             <div class="rpc-top">
               <div class="rp-photo">
-                <img src="photos FDP/amit purohit.png" alt="Mr. Amit Purohit" />
+                <img
+                  src="photos FDP/amit purohit.jpeg"
+                  alt="Mr. Amit Purohit"
+                />
               </div>
               <div class="rp-ifo">
                 <div class="rp-name">Mr. Amit Purohit</div>
@@ -2443,7 +2579,7 @@
             <div class="rpc-top">
               <div class="rp-photo">
                 <img
-                  src="photos FDP/kailash chandra bandhu.png"
+                  src="photos FDP/kailash-chandra-bandhu.webp"
                   alt="Dr. Kailash Chandra Bandhu"
                 />
               </div>
@@ -2483,9 +2619,7 @@
             <div class="role-row"><span>Program Chair</span></div>
             <div class="fac-grid">
               <div class="fi">
-                <div class="rp-photo">
-                  <img src="photos FDP/aa koser.png" alt="Prof. A.A. Koser" />
-                </div>
+                <div class="cc-av cc-lg cc-bg1">AK</div>
                 <div>
                   <div class="fn">Prof. A.A. Koser</div>
                   <div class="fp">
@@ -2495,12 +2629,7 @@
                 </div>
               </div>
               <div class="fi">
-                <div class="rp-photo">
-                  <img
-                    src="photos FDP/ratnesh litoriya.png"
-                    alt="Prof. Ratnesh Litoriya"
-                  />
-                </div>
+                <div class="cc-av cc-lg cc-bg2">RL</div>
                 <div>
                   <div class="fn">Prof. Ratnesh Litoriya</div>
                   <div class="fp">
@@ -2516,12 +2645,7 @@
             <div class="role-row"><span>Program Co-Chair</span></div>
             <div class="fac-grid">
               <div class="fi">
-                <div class="rp-photo">
-                  <img
-                    src="photos FDP/saurabh jain.png"
-                    alt="Prof. Saurabh Jain"
-                  />
-                </div>
+                <div class="cc-av cc-lg cc-bg3">SJ</div>
                 <div>
                   <div class="fn">Prof. Saurabh Jain</div>
                   <div class="fp">
@@ -2531,12 +2655,7 @@
                 </div>
               </div>
               <div class="fi">
-                <div class="rp-photo">
-                  <img
-                    src="photos FDP/kailash chandra bandhu.png"
-                    alt="Prof. Kailash C. Bandhu"
-                  />
-                </div>
+                <div class="cc-av cc-lg cc-bg4">KB</div>
                 <div>
                   <div class="fn">Prof. Kailash C. Bandhu</div>
                   <div class="fp">HOD – CSE, Medicaps University</div>
@@ -2544,12 +2663,7 @@
                 </div>
               </div>
               <div class="fi">
-                <div class="rp-photo">
-                  <img
-                    src="photos FDP/d srinivasa rao.png"
-                    alt="Prof. D. Srinivasa Rao"
-                  />
-                </div>
+                <div class="cc-av cc-lg cc-bg5">DS</div>
                 <div>
                   <div class="fn">Prof. D. Srinivasa Rao</div>
                   <div class="fp">HOD – CA, Medicaps University</div>
@@ -2557,12 +2671,7 @@
                 </div>
               </div>
               <div class="fi">
-                <div class="rp-photo">
-                  <img
-                    src="photos FDP/vidhya s barpha.png"
-                    alt="Prof. Vidhya S Barpha"
-                  />
-                </div>
+                <div class="cc-av cc-lg cc-bg6">VB</div>
                 <div>
                   <div class="fn">Prof. Vidhya S Barpha</div>
                   <div class="fp">HOD – IT, Medicaps University</div>
@@ -2576,8 +2685,8 @@
             <div class="role-row"><span>Convener</span></div>
             <div class="fac-grid">
               <div class="fi">
-                <div class="rp-photo">
-                  <img src="photos FDP/ruby bhatt.png" alt="Prof. Ruby Bhatt" />
+                <div class="rp-photo" style="background: none; border: none">
+                  <div class="cc-av cc-lg cc-bg7">RB</div>
                 </div>
                 <div>
                   <div class="fn">Prof. Ruby Bhatt</div>
@@ -2592,12 +2701,7 @@
             <div class="role-row"><span>Co-Conveners</span></div>
             <div class="fac-grid">
               <div class="fi">
-                <div class="rp-photo">
-                  <img
-                    src="photos FDP/kuber datt gautam.png"
-                    alt="Prof. Kuber Datt Gautam"
-                  />
-                </div>
+                <div class="cc-av cc-lg cc-bg8">KG</div>
                 <div>
                   <div class="fn">Prof. Kuber Datt Gautam</div>
                   <div class="fp">
@@ -2607,12 +2711,7 @@
                 </div>
               </div>
               <div class="fi">
-                <div class="rp-photo">
-                  <img
-                    src="photos FDP/latika jindal.png"
-                    alt="Prof. Latika Jindal"
-                  />
-                </div>
+                <div class="cc-av cc-lg cc-bg9">LJ</div>
                 <div>
                   <div class="fn">Prof. Latika Jindal</div>
                   <div class="fp">
@@ -2622,12 +2721,7 @@
                 </div>
               </div>
               <div class="fi">
-                <div class="rp-photo">
-                  <img
-                    src="photos FDP/govinda patil.png"
-                    alt="Prof. Govinda Patil"
-                  />
-                </div>
+                <div class="cc-av cc-lg cc-bg10">GP</div>
                 <div>
                   <div class="fn">Prof. Govinda Patil</div>
                   <div class="fp">
@@ -2637,12 +2731,7 @@
                 </div>
               </div>
               <div class="fi">
-                <div class="rp-photo">
-                  <img
-                    src="photos FDP/jyoti kukade.png"
-                    alt="Prof. Jyoti Kukade"
-                  />
-                </div>
+                <div class="cc-av cc-lg cc-bg11">JK</div>
                 <div>
                   <div class="fn">Prof. Jyoti Kukade</div>
                   <div class="fp">
@@ -2655,18 +2744,18 @@
           </div>
 
           <div class="role-group">
-            <div class="role-row"><span>Technical</span></div>
+            <div class="role-row"><span>Technical Head</span></div>
             <div class="fac-grid">
               <div class="fi">
-                <div class="rp-photo">
-                  <img src="photos FDP/sanket gupta.png" alt="Sanket Gupta" />
+                <div class="rp-photo" style="background: none; border: none">
+                  <div class="cc-av cc-lg cc-bg12">SG</div>
                 </div>
                 <div>
-                  <div class="fn">Sanket Gupta</div>
+                  <div class="fn">Prof. Sanket Gupta</div>
                   <div class="fp">
-                    Technical Committee – CSE Department, Medicaps University
+                    Technical Head – CSE Department, Medicaps University
                   </div>
-                  <span class="fbadge">Technical</span>
+                  <span class="fbadge">Technical Head</span>
                 </div>
               </div>
             </div>
@@ -2758,7 +2847,7 @@
                 flex-shrink: 0;
               "
             >
-              <img src="photos FDP/ruby bhatt.png" alt="Prof. Ruby Bhatt" />
+              <div class="cc-av cc-sm cc-bg1">RB</div>
             </div>
             <div>
               <div class="crole">Convener</div>
@@ -2767,7 +2856,7 @@
                 HOD – CS, Medicaps University<br />FDP 2026 Convener
               </div>
               <div class="clinks">
-                <a href="tel:+917312496000" class="clink">📞 +91-731-2496000</a>
+                <a href="tel:+917312496000" class="clink">9406833261</a>
               </div>
             </div>
           </div>
@@ -2782,10 +2871,7 @@
                 flex-shrink: 0;
               "
             >
-              <img
-                src="photos FDP/kuber datt gautam.png"
-                alt="Prof. Kuber Datt Gautam"
-              />
+              <div class="cc-av cc-sm cc-bg2">KG</div>
             </div>
             <div>
               <div class="crole">Registration Issues</div>
@@ -2794,7 +2880,7 @@
                 Faculty – CS Department<br />Medicaps University, Indore
               </div>
               <div class="clinks">
-                <a href="tel:+917312496000" class="clink">📞 +91-731-2496000</a>
+                <a href="tel:+917312496000" class="clink">8823847214</a>
               </div>
             </div>
           </div>
@@ -2809,46 +2895,16 @@
                 flex-shrink: 0;
               "
             >
-              <img src="photos FDP/sanket gupta.png" alt="Sanket Gupta" />
+              <div class="cc-av cc-sm cc-bg3">SG</div>
             </div>
             <div>
               <div class="crole">Technical Support</div>
-              <div class="cname">Sanket Gupta</div>
+              <div class="cname">Prof. Sanket Gupta</div>
               <div class="cdept">
                 Technical Team – CSE Department<br />Medicaps University, Indore
               </div>
               <div class="clinks">
-                <a href="tel:+917312496000" class="clink"
-                  >📞 Technical Issues</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="cc">
-            <div
-              class="rp-photo"
-              style="
-                width: 48px;
-                height: 48px;
-                border-radius: 9px;
-                flex-shrink: 0;
-              "
-            >
-              <img
-                src="photos FDP/medicaps logo.png"
-                alt="Medicaps University"
-              />
-            </div>
-            <div>
-              <div class="crole">University Office</div>
-              <div class="cname">Medicaps University</div>
-              <div class="cdept">
-                AB Bypass Road, Pigdamber, Rau<br />Indore – 453331, Madhya
-                Pradesh
-              </div>
-              <div class="clinks">
-                <a href="tel:+917312496000" class="clink">📞 +91-731-2496000</a>
+                <a href="tel:+917312496000" class="clink">9713029078</a>
               </div>
             </div>
           </div>
@@ -2903,7 +2959,7 @@
         </div>
         <div class="f-bot">
           <span class="f-copy"
-            >© 2026 Medicaps University. All rights reserved.</span
+            >© SDC 2026 Medicaps University. All rights reserved.</span
           >
           <span class="f-copy"
             >Faculty of Engineering (Computing & Allied Branches) · Department
