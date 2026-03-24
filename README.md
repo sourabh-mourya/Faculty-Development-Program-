@@ -5,13 +5,7 @@ An informational and registration-linked web platform for the **8-Day Faculty De
 ## 🌐 Live Deployment
 
 **URL**: [https://fdp.medicaps.ac.in/](https://fdp.medicaps.ac.in/)
-Combined Repository:[https://github.com/StudentDeveloperCommunity/MoonstoneBackend.git](https://github.com/StudentDeveloperCommunity/Faculty-Development-Program-.git)
-
-
-**Deployment Period**: March 2026 – Present
-
-**Developer**:Sourabh mourya
-**Development Team**: Student Developers Community (SDC), Medicaps University
+**Combined Repository**:[https://github.com/StudentDeveloperCommunity/MoonstoneBackend.git](https://github.com/StudentDeveloperCommunity/Faculty-Development-Program-.git)
 
 ---
 
